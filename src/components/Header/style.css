@@ -13,7 +13,7 @@
 
 .logo{
     margin: 0px 70px;
-
+    padding: 9px 0 0 9px;
 }
 
 ul{
@@ -23,6 +23,7 @@ ul{
     list-style: none;
 
     margin-right: 60px;
+    padding-left: 9px;
     height: 100%;
 
 }
@@ -45,7 +46,7 @@ li:hover{
 }
 
 .btn-main{
-    margin-right: 170px;
+    margin-right: 175px;
     border: none;
     border-radius: 25px;
     
