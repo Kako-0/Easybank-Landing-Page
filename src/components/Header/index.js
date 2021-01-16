@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import '../../styles/btn.css';
 import { ReactComponent as Logo } from '../../images/logo.svg';
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
                 <li>Blog</li>
                 <li>Careers</li>
             </ul>
-            <button className="btn-main"> Request Invite</button>
+            <button className="btn-main btn-header"> Request Invite</button>
         </header>
     );
 }
