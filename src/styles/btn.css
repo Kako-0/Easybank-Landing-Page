@@ -1,0 +1,18 @@
+.btn-main{
+    border: none;
+    border-radius: 25px;
+    
+    width: 165px;
+    height: 45px;
+
+    background: linear-gradient(90deg, var(--LimeGreen), var(--BrightCyan));
+    color: var(--White);
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+.btn-main:hover{
+    opacity: 0.6;
+}
