@@ -1,0 +1,10 @@
+.articles-container{
+    height: 100vh;
+    padding: 70px 100px 0px 148px;
+    background-color: var(--VeryLightGray);
+}
+.articles-container h1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--DarkBlue);
+}
