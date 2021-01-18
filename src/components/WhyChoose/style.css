@@ -1,0 +1,15 @@
+.wce-container{
+    background-color: var(--LightGrayishBlue);
+    height: 100vh;
+    padding: 70px 100px 0px 148px;
+}
+.wce-container h1{
+    color: var(--DarkBlue);
+    font-weight: 400;
+    font-size: 2rem;
+}
+.wce-container p{
+    color: var(--GrayishBlue);
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
