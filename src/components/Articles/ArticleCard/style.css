@@ -1,0 +1,30 @@
+.ac-container{
+    background-color: var(--White);
+    width: 22%;
+    padding-bottom: 10px;
+}
+
+.ac-container img{
+    width: 100%;
+    height: 45%;
+}
+
+.ac-information{
+    padding-left: 30px;
+}
+.ac-information h6{
+    color: var(--GrayishBlue);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.ac-information h4{
+    color: var(--DarkBlue);
+    font-size: 0.8rem;
+    margin: 0;
+    padding-right: 45px;
+}
+.ac-information p{
+    padding-right: 25px;
+    color: var(--GrayishBlue);
+    font-size: 0.8rem;
+}
