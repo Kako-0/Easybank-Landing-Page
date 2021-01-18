@@ -13,3 +13,9 @@
     line-height: 1.5rem;
     font-size: 0.9rem;
 }
+
+.wce-list{
+    display: flex;
+    justify-content: space-between;
+
+}
