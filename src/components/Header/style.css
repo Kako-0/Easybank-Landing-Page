@@ -16,7 +16,7 @@
     padding: 9px 0 0 9px;
 }
 
-ul{
+.content-header{
     display: flex;
     justify-content: space-between;
 
@@ -26,7 +26,7 @@ ul{
     height: 100%;
 
 }
-li{
+.content-header li{
     display: flex;
     align-items: center;
     margin: 0 14px;
@@ -36,7 +36,7 @@ li{
     cursor: pointer;
 }
 
-li:hover{
+.content-header li:hover{
     color: var(--DarkBlue);
 
     border-bottom: 4px solid;
