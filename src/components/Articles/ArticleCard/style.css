@@ -23,6 +23,11 @@
     margin: 0;
     padding-right: 45px;
 }
+.ac-information h4:hover{
+    cursor: pointer;
+    color: var(--LimeGreen);
+    opacity: 0.6;
+}
 .ac-information p{
     padding-right: 25px;
     color: var(--GrayishBlue);

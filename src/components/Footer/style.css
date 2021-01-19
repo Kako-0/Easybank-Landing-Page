@@ -18,8 +18,11 @@
     list-style: none;
     display: inline;
     margin: 0px 5px;
+    cursor: pointer;
 }
-
+.footer-icon-social li>:hover path{
+    fill: var(--LimeGreen);
+}
 
 .footer-list{
     list-style: none;
@@ -33,6 +36,10 @@
 .footer-list li{
     margin: 8px 46px;
     font-size: 0.8rem;
+}
+.footer-list li:hover{
+    cursor: pointer;
+    color: var(--LimeGreen);
 }
 
 .btn-copyright{
