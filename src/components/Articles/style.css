@@ -1,6 +1,6 @@
 .articles-container{
     height: 90vh;
-    padding: 70px 100px 0px 148px;
+    padding: 70px 100px 85px 148px;
     background-color: var(--VeryLightGray);
 }
 .articles-container h1{
@@ -20,7 +20,6 @@
     .articles-container{
         height: auto;
         padding: 0px 25px;
-        padding-bottom: 90px;
     }
     .articles-container h1{
         margin-top: 0px;
