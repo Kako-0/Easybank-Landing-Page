@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    height: 100vh;
+    height: calc(100vh - 80px);
     
     background-color: var(--VeryLightGray);
     
@@ -13,8 +13,9 @@
  
     align-items: flex-start;
     flex-direction: column;
-
+    width: 58%;
     margin-top: 100px;
+    padding-left: 148px;
 
     color: var(--DarkBlue);
 }
@@ -26,14 +27,15 @@
 .text-home p{
     line-height: 1.6rem;
     color: var(--GrayishBlue);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .photos-home{
-   width: 56%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
 }
+
 .mockup-home{
     position: absolute;
     right: 0px;
@@ -50,4 +52,56 @@
 .background-home{
     position: relative;
     bottom: 258px;
+}
+
+@media (max-width: 420px){
+    .container-home{
+        height: auto;
+        flex-direction: column-reverse;
+        padding-bottom: 80px;
+    }
+    
+    .text-home{
+        align-items: center;
+        flex-direction: column;
+        
+        width: auto;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .text-home h1{
+        font-size: 2rem;
+        margin: 0;
+    }
+    .text-home p{
+        text-align: center;
+        line-height: 1rem;
+    }
+    
+    .photos-home{
+        width: 100%;
+        height: 46vh;
+        overflow: hidden;
+    }
+    .photos-home img{
+        position: relative;
+        top: -86px;
+        width: 100%;
+    }
+    .mockup-home{
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+    }
+    .mockup-home img{
+        position: relative;
+        top: -134px;
+        left: 30px;
+        width: 90%;
+        height: 100%;
+    }
+    
+    .background-home{
+        position: initial;
+    }
 }
