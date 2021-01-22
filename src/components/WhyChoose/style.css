@@ -19,3 +19,17 @@
     justify-content: space-between;
 
 }
+
+@media (max-width: 420px){
+    .wce-container{
+        height: auto;
+        padding: 0px 25px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+        text-align: center;
+    }
+ 
+    .wce-list{
+        flex-direction: column;
+    }
+}
