@@ -11,6 +11,24 @@
 
 .articles-list{
     display: flex;
+    height: 80%;
     justify-content: space-between;
-    margin: 50px 15px
+    margin: 50px 15px;
+}
+
+@media (max-width: 420px){
+    .articles-container{
+        height: auto;
+        padding: 0px 25px;
+        padding-bottom: 90px;
+    }
+    .articles-container h1{
+        margin-top: 0px;
+        padding-top: 80px;
+        text-align: center;
+    }
+    .articles-list{
+        margin: 0px;
+        flex-direction: column;
+    }
 }
