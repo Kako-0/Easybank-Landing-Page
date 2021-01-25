@@ -16,6 +16,11 @@
     padding: 9px 0 0 9px;
 }
 
+.options-header{
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
 .content-header{
     display: flex;
     justify-content: space-between;
@@ -46,4 +51,55 @@
 
 .btn-header{
     margin-right: 120px;
+}
+
+@media (max-width: 420px){
+    .container-header{
+        height: 60px;
+    }
+    
+    .logo{
+        margin-left: 30px;
+    }
+
+    .content-header{
+        position: relative;
+        padding: 35px 0;
+        width: 100%;
+        margin: 0px;
+        height: initial;
+        flex-direction: column;
+    }
+    .content-header li{
+        margin: 0;
+        height: 100%;
+        font-size: 1.1rem;
+        color: var(--DarkBlue);
+        padding: 0;
+        justify-content: center;
+    }
+    .content-header li:hover{
+        border: none;
+    }
+
+    .mobile-list-container{
+        position: absolute;
+        top: 60px;
+        overflow: hidden;
+        height: 100vh;
+        width: 100%;
+    }
+    .mobile-list-content{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 25px;
+        left: 35px;
+        height: 39vh;
+        width: 85%;
+        background-color: var(--White);
+        border-radius: 5px;
+        box-shadow: 0px -30px 160px 140px var(--DarkBlue);
+        z-index: 3;
+    }
 }
