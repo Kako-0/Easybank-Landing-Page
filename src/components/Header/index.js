@@ -26,8 +26,8 @@ const DesktopNav = () => {
 
 const MobileList = () => {
     return(
-        <div className="mobile-list">
-            <List />
+        <div className="mobile-list-container">
+            <div className="mobile-list-content"> <List /> </div>
         </div>
     )
 }
@@ -36,12 +36,12 @@ const MobileNav= () => {
     const [isActive, setisActive] = useState(false);
     return(
     <>
-        <img className="options-header" src={hamburguer} alt="navegation" 
+        <img className="options-header" src={isActive ? close : hamburguer} alt="navegation" 
             onClick={()=>{
                 setisActive(!isActive);
             }}
         />
-        {isActive && <MobileList />};
+        {isActive && <MobileList />}
     </>
 )}
 
