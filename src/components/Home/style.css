@@ -90,6 +90,7 @@
     }
     .mockup-home{
         position: absolute;
+        top: 60px;
         width: 100%;
         overflow: hidden;
     }
